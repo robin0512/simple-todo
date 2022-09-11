@@ -2,6 +2,7 @@
 Simple Todo-App in React
 
 A App that can let user to make a todo list. Using firebase-cloud firestore for saving the data.
+(My first React project learn with Code Commerce)
 
 ## App Screen Images
 <p align="center">
