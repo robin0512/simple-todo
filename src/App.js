@@ -3,15 +3,14 @@ import {AiOutlinePlus} from "react-icons/ai"
 import Todo from "./Todo";
 import {db} from "./firebase"
 import {query, collection, onSnapshot, updateDoc, doc, addDoc, deleteDoc} from "firebase/firestore"
-import { hasSelectionSupport } from "@testing-library/user-event/dist/utils";
 
 const style = {
-  bg: `h-screen w-screen p-4 bg-gradient-to-r from-[#2F80ED] to-[#1CB5E0]`,
+  bg: `h-screen w-screen p-4 bg-gradient-to-b from-sky-400 to-sky-200`,
   container: `bg-slate-100 max-w-[500px] w-full m-auto round-md shadow-xl p-4`,
   heading: `text-3xl font-bold text-center text-gray-800 p-2`,
   form: `flex justify-between`,
-  input: `border p-2 w-full text-xl`,
-  button: `border p-4 ml-2 bg-purple-500 text-slate-100`,
+  input: `px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full`,
+  button: `border p-4 ml-2 bg-sky-500 hover:bg-sky-400 text-slate-100 shadow-md`,
   count: `text-center p-2`
 }
 
