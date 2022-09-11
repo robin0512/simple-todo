@@ -1,3 +1,16 @@
+# SimpleTodoApp
+Simple Todo-App in React
+
+A App that can let user to make a todo list. Using firebase-cloud firestore for saving the data.
+
+## App Screen Images
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53432684/189514457-e2ced3ad-4e1a-4578-b46f-cbfffb6f2c85.png" width="500" />
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53432684/189514503-ce8d8ed3-beaf-4617-af14-892cccaa627d.png" width="500" />
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
